@@ -7,3 +7,5 @@ w-b,w-l{display:inline}@media(max-width:800px){w-b{display:inline-block}}
 @media(max-width:560px){[data-fit]{font-size:min(var(--fit-cap),var(--fit))!important}}
 /* スマホで親子3人が切れないように（右端の女の子が欠けていた） */
 @media(max-width:680px){.hero-image{object-position:97% center}.closing>img{object-position:97% 55%}}
+/* 担当者カードから職種別フォームへ（2026-10-03） */
+.contact-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:20px}.contact-link{display:flex;align-items:center;justify-content:center;min-height:52px;padding:8px 10px;border-radius:4px;background:var(--blue);color:#fff;font-size:14px;font-weight:700;text-align:center;line-height:1.5}.contact-link:hover{background:#0846be}
