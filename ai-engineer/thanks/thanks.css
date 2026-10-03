@@ -1,13 +1,13 @@
 /* 送信完了ページ（2026年10月3日） */
 .thanks{position:relative;overflow:hidden;min-height:calc(100svh - 88px);display:flex;align-items:center;background:linear-gradient(180deg,#f3f8ff 0%,#e9f4fe 100%)}
-.thanks-inner{position:relative;z-index:1;width:min(760px,86%);margin:0 auto;padding:64px 0 330px;text-align:center}
+.thanks-inner{position:relative;z-index:1;width:min(760px,86%);margin:0 auto;padding:64px 0 calc(min(31vw,520px) - 20px);text-align:center}
 .thanks h1{margin:22px 0 0;font-size:min(46px,6.8vw);line-height:1.5;letter-spacing:.04em;font-weight:900}
 .thanks-kind{margin-top:26px;font-size:17px;font-weight:800;color:var(--blue)}
 .thanks-text{margin-top:14px;color:var(--muted);font-size:15px}
 .thanks-tel{display:inline-block;margin-top:14px;font:800 26px/1.4 Arial,sans-serif;letter-spacing:.06em;color:var(--ink)}
 .thanks-back{display:flex;width:fit-content;margin:34px auto 0}
-.thanks-image{position:absolute;left:0;right:0;bottom:0;width:100%;height:400px;object-fit:cover;object-position:97% 40%;
-  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 26%);mask-image:linear-gradient(180deg,transparent 0,#000 26%);opacity:.9}
+.thanks-image{position:absolute;left:0;right:0;bottom:0;width:100%;height:min(31vw,520px);object-fit:cover;object-position:97% 62%;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 18%);mask-image:linear-gradient(180deg,transparent 0,#000 18%);opacity:.9}
 @media(max-width:680px){
   .thanks{min-height:calc(100svh - 73px)}
   .thanks-inner{padding:56px 0 230px}
