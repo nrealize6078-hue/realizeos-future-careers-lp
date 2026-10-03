@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 128" width="240" height="128">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102745"/><stop offset="1" stop-color="#1d4a86"/></linearGradient>
+  </defs>
+  <rect width="240" height="128" fill="url(#g)"/>
+  <circle cx="34" cy="16" r="44" fill="#fff" opacity=".06"/>
+  <circle cx="214" cy="120" r="40" fill="#fff" opacity=".06"/>
+  <!-- ノートパソコン -->
+  <rect x="52" y="42" width="96" height="58" rx="6" fill="#eaf2ff"/>
+  <rect x="58" y="48" width="84" height="46" rx="3" fill="#0955e8"/>
+  <path d="M84 62l-9 9 9 9M116 62l9 9-9 9M104 58l-8 26" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 100h120l-8 9H48z" fill="#c9dcff"/>
+  <!-- 学びの帽子 -->
+  <path d="M182 34l34 14-34 14-34-14z" fill="#ffd36b"/>
+  <path d="M164 55v14c0 6 36 6 36 0V55l-18 7z" fill="#f2b92a"/>
+  <path d="M214 49v18" stroke="#ffd36b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="214" cy="70" r="3.5" fill="#ffd36b"/>
+  <!-- 芽 -->
+  <path d="M182 108V86" stroke="#6be3a1" stroke-width="4" stroke-linecap="round"/>
+  <path d="M182 92c-12 0-18-8-18-16 10 0 18 6 18 16zM182 88c0-11 7-18 18-18 0 10-7 18-18 18z" fill="#6be3a1"/>
+</svg>

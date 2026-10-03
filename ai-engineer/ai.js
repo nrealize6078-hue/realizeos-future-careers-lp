@@ -23,9 +23,9 @@
   nav.setAttribute('role', 'navigation');
   nav.setAttribute('aria-label', '応募・お問い合わせの入り口');
   nav.innerHTML =
-    '<a href="#contact-fulltime"><span class="ai-entry-thumb"><img src="assets/entry-fulltime.webp" alt="" width="120" height="64" loading="lazy"></span>' +
+    '<a href="#contact-fulltime"><span class="ai-entry-thumb"><img src="assets/entry-fulltime.svg" alt="" width="120" height="64" loading="lazy"></span>' +
     '<span class="ai-entry-label"><b>FULL-TIME</b><small><span class="ai-pc">正社員で問い合わせる</span><span class="ai-sp">正社員で相談</span></small></span><span class="ai-arrow" aria-hidden="true"></span></a>' +
-    '<a href="#contact-intern"><span class="ai-entry-thumb"><img src="assets/entry-intern.webp" alt="" width="120" height="64" loading="lazy"></span>' +
+    '<a href="#contact-intern"><span class="ai-entry-thumb"><img src="assets/entry-intern.svg" alt="" width="120" height="64" loading="lazy"></span>' +
     '<span class="ai-entry-label"><b>INTERNSHIP</b><small><span class="ai-pc">インターンで問い合わせる</span><span class="ai-sp">インターンで相談</span></small></span><span class="ai-arrow" aria-hidden="true"></span></a>';
   document.body.appendChild(nav);
 
