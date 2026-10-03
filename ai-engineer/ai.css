@@ -81,3 +81,15 @@
   .ai-anim [data-ai-r],.ai-anim figure[data-ai-r]>img{opacity:1;transform:none;clip-path:none;transition:none}
   .ai-arrow::before{animation:none!important}
 }
+
+/* 会社情報（フッター内・2026-10-03） */
+footer{flex-wrap:wrap}
+.footer-company{flex:1 0 100%;order:9;display:flex;align-items:baseline;gap:8px 40px;margin-top:22px;padding-top:24px;border-top:1px solid var(--line)}
+.footer-company-title{flex:none;font-size:13px;font-weight:800;color:var(--ink)}
+.footer-company dl{display:flex;flex-wrap:wrap;gap:12px 44px;margin:0}
+.footer-company dl>div{display:block;padding:0;border:0;font-size:13px}
+.footer-company dt{font-size:12px;font-weight:700;color:var(--muted)}
+.footer-company dd{margin:2px 0 0;color:var(--ink);font-size:13px;line-height:1.7}
+.footer-company .nw{white-space:nowrap}
+.footer-company a{color:var(--blue)}
+@media(max-width:680px){.footer-company{display:block;margin-top:18px;padding-top:20px}.footer-company dl{display:grid;grid-template-columns:1fr;gap:12px;margin-top:12px}}
