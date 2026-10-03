@@ -11,6 +11,7 @@
 .cf-dark h2{font-family:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;font-weight:600}
 .cf-lead{margin:18px 0 0;color:var(--cf-muted);font-size:15px}
 .cf-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:36px 0 0}
+.cf-tabs.cf-tabs-2{grid-template-columns:1fr 1fr}
 .cf-tabs button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:14px 16px;border:1px solid var(--cf-line);border-radius:6px;background:var(--cf-panel);color:var(--cf-ink);font:inherit;text-align:left;cursor:pointer;transition:border-color .2s,background .2s}
 .cf-tabs button b{font-size:16px;line-height:1.5}
 .cf-tabs button small{font-size:12px;color:var(--cf-muted);line-height:1.5}
