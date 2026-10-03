@@ -94,6 +94,9 @@
         .then(function (r) { return r.json(); })
         .then(function (res) {
           if (!res.ok) throw new Error(res.error || 'error');
+          // 送信完了ページがあれば移動する（応募の計測はこのページへの遷移で判定する）
+          var thanks = form.getAttribute('data-thanks');
+          if (thanks) { location.href = new URL(thanks, location.href).href; return; }
           form.hidden = true;
           status.className = 'cf-status is-done';
           status.textContent = '送信しました。お問い合わせありがとうございます。内容を確認のうえ、担当者からご連絡します。';
